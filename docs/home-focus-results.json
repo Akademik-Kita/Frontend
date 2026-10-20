@@ -1,0 +1,12 @@
+{
+  "checks": [
+    "/ at 1440px: 18 controls traversed in DOM order with visible focus rings",
+    "/ at 390px: 17 controls traversed in DOM order with visible focus rings",
+    "Successful registration fixture followed by real demo login -> /home; no account created",
+    "/home at 1440px: 27 controls traversed in DOM order with visible focus rings",
+    "/home at 390px: 22 controls traversed in DOM order with visible focus rings",
+    "GSAP cleanup: member -> public has one pin; leaving homepage removes pin spacer",
+    "Progress track/fill verified in browser: #492180 and #d9ecab, contrast 9.12:1"
+  ],
+  "runtimeErrors": []
+}

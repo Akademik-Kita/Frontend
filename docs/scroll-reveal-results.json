@@ -1,0 +1,320 @@
+{
+  "animation": [
+    {
+      "frames": 343,
+      "faded": true,
+      "translated": true,
+      "scaled": true,
+      "visibleAfterMorph": true
+    }
+  ],
+  "targets": [
+    {
+      "width": 1440,
+      "tag": "DIV",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "H3",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "P",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "P",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "A",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "DIV",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "H3",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "P",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "P",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "A",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "DIV",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "H3",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "P",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "P",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "A",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "DIV",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "H3",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "P",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "P",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "A",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "DIV",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "DIV",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "DIV",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "DIV",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "DIV",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "DIV",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "P",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "H2",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "DIV",
+      "revealed": true
+    },
+    {
+      "width": 1440,
+      "tag": "FOOTER",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "DIV",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "H3",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "P",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "P",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "A",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "DIV",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "H3",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "P",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "P",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "A",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "DIV",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "H3",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "P",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "P",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "A",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "DIV",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "H3",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "P",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "P",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "A",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "DIV",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "DIV",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "DIV",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "DIV",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "DIV",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "DIV",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "P",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "H2",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "DIV",
+      "revealed": true
+    },
+    {
+      "width": 390,
+      "tag": "FOOTER",
+      "revealed": true
+    }
+  ],
+  "checks": [
+    "Visited content remains visible when scrolling back; reveal runs once",
+    "Keyboard-focused action becomes visible immediately without waiting for reveal",
+    "Switching reduced motion on and loading with reduced motion both show every element without transforms",
+    "Leaving homepage removes reveal elements and restores normal page scrolling"
+  ],
+  "errors": []
+}

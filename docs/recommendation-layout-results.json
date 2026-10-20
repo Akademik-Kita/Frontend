@@ -1,0 +1,240 @@
+{
+  "layouts": [
+    {
+      "viewport": 320,
+      "width": 238,
+      "columns": 1,
+      "boxes": [
+        {
+          "width": 238,
+          "height": 488,
+          "scrollWidth": 238,
+          "clientWidth": 238,
+          "escaped": []
+        },
+        {
+          "width": 238,
+          "height": 384,
+          "scrollWidth": 238,
+          "clientWidth": 238,
+          "escaped": []
+        }
+      ]
+    },
+    {
+      "viewport": 390,
+      "width": 308,
+      "columns": 1,
+      "boxes": [
+        {
+          "width": 308,
+          "height": 388,
+          "scrollWidth": 308,
+          "clientWidth": 308,
+          "escaped": []
+        },
+        {
+          "width": 308,
+          "height": 304,
+          "scrollWidth": 308,
+          "clientWidth": 308,
+          "escaped": []
+        }
+      ]
+    },
+    {
+      "viewport": 640,
+      "width": 526,
+      "columns": 2,
+      "boxes": [
+        {
+          "width": 257,
+          "height": 468,
+          "scrollWidth": 257,
+          "clientWidth": 257,
+          "escaped": []
+        },
+        {
+          "width": 257,
+          "height": 364,
+          "scrollWidth": 257,
+          "clientWidth": 257,
+          "escaped": []
+        }
+      ]
+    },
+    {
+      "viewport": 768,
+      "width": 317,
+      "columns": 1,
+      "boxes": [
+        {
+          "width": 317,
+          "height": 388,
+          "scrollWidth": 317,
+          "clientWidth": 317,
+          "escaped": []
+        },
+        {
+          "width": 317,
+          "height": 304,
+          "scrollWidth": 317,
+          "clientWidth": 317,
+          "escaped": []
+        }
+      ]
+    },
+    {
+      "viewport": 820,
+      "width": 343,
+      "columns": 1,
+      "boxes": [
+        {
+          "width": 343,
+          "height": 368,
+          "scrollWidth": 343,
+          "clientWidth": 343,
+          "escaped": []
+        },
+        {
+          "width": 343,
+          "height": 264,
+          "scrollWidth": 343,
+          "clientWidth": 343,
+          "escaped": []
+        }
+      ]
+    },
+    {
+      "viewport": 1024,
+      "width": 267.4375,
+      "columns": 1,
+      "boxes": [
+        {
+          "width": 267.4375,
+          "height": 448,
+          "scrollWidth": 267,
+          "clientWidth": 267,
+          "escaped": []
+        },
+        {
+          "width": 267.4375,
+          "height": 344,
+          "scrollWidth": 267,
+          "clientWidth": 267,
+          "escaped": []
+        }
+      ]
+    },
+    {
+      "viewport": 1200,
+      "width": 324.828125,
+      "columns": 1,
+      "boxes": [
+        {
+          "width": 324.828125,
+          "height": 388,
+          "scrollWidth": 325,
+          "clientWidth": 325,
+          "escaped": []
+        },
+        {
+          "width": 324.828125,
+          "height": 284,
+          "scrollWidth": 325,
+          "clientWidth": 325,
+          "escaped": []
+        }
+      ]
+    },
+    {
+      "viewport": 1440,
+      "width": 324.828125,
+      "columns": 1,
+      "boxes": [
+        {
+          "width": 324.828125,
+          "height": 388,
+          "scrollWidth": 325,
+          "clientWidth": 325,
+          "escaped": []
+        },
+        {
+          "width": 324.828125,
+          "height": 284,
+          "scrollWidth": 325,
+          "clientWidth": 325,
+          "escaped": []
+        }
+      ]
+    }
+  ],
+  "containerWidths": [
+    {
+      "width": 190,
+      "columns": 1,
+      "boxes": [
+        {
+          "width": 190,
+          "height": 688,
+          "scrollWidth": 190,
+          "clientWidth": 190,
+          "escaped": []
+        },
+        {
+          "width": 190,
+          "height": 524,
+          "scrollWidth": 190,
+          "clientWidth": 190,
+          "escaped": []
+        }
+      ]
+    },
+    {
+      "width": 260,
+      "columns": 1,
+      "boxes": [
+        {
+          "width": 260,
+          "height": 468,
+          "scrollWidth": 260,
+          "clientWidth": 260,
+          "escaped": []
+        },
+        {
+          "width": 260,
+          "height": 344,
+          "scrollWidth": 260,
+          "clientWidth": 260,
+          "escaped": []
+        }
+      ]
+    },
+    {
+      "width": 520,
+      "columns": 2,
+      "boxes": [
+        {
+          "width": 254,
+          "height": 468,
+          "scrollWidth": 254,
+          "clientWidth": 254,
+          "escaped": []
+        },
+        {
+          "width": 254,
+          "height": 364,
+          "scrollWidth": 254,
+          "clientWidth": 254,
+          "escaped": []
+        }
+      ]
+    }
+  ],
+  "checks": [
+    "200% text: full content stays inside each box; no clipping or truncation",
+    "School card compare selection/deselection and detail navigation still work",
+    "Single-string, one-sided empty, and fully empty explanations remain readable"
+  ],
+  "errors": []
+}

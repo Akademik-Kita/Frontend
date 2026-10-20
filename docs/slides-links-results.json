@@ -1,0 +1,329 @@
+{
+  "clicks": [
+    "Keyboard skip link -> main content",
+    "AkademikKita. -> /#beranda",
+    "Cara memilih -> /#alur",
+    "Pertimbangan -> /#pertimbangan",
+    "About us -> /about",
+    "Masuk -> /login",
+    "Buat akun siswa -> /register",
+    "Scroll ke slide berikutnya↓ -> /#alur",
+    "Isi profil dan preferensi -> /register",
+    "Tambahkan nilai rapor -> /register",
+    "Kerjakan tes minat -> /register",
+    "Lihat rekomendasi SMA -> /register",
+    "Buat akun dan isi profil -> /register",
+    "AkademikKita. -> /#beranda",
+    "Kembali ke atas ↑ -> /#beranda",
+    "Slide 1: Beranda -> /#beranda",
+    "Slide 2: Profil & preferensi -> /#alur",
+    "Slide 3: Nilai rapor -> /#nilai",
+    "Slide 4: Tes minat -> /#minat",
+    "Slide 5: Rekomendasi -> /#pilihan",
+    "Slide 6: Pertimbangan -> /#pertimbangan",
+    "Slide 7: Siapkan profil -> /#penutup"
+  ],
+  "focus": [
+    "390px Slide berikutnya: 44px target and visible focus",
+    "768px Slide berikutnya: 44px target and visible focus",
+    "1440px Slide 1: Beranda: 44px target and visible focus",
+    "1440px Slide 2: Profil & preferensi: 44px target and visible focus",
+    "1440px Slide 3: Nilai rapor: 44px target and visible focus",
+    "1440px Slide 4: Tes minat: 44px target and visible focus",
+    "1440px Slide 5: Rekomendasi: 44px target and visible focus",
+    "1440px Slide 6: Pertimbangan: 44px target and visible focus",
+    "1440px Slide 7: Siapkan profil: 44px target and visible focus",
+    "1440px Slide berikutnya: 44px target and visible focus"
+  ],
+  "contrasts": [
+    {
+      "width": 390,
+      "pairs": [
+        {
+          "fg": "rgb(53, 86, 204)",
+          "bg": "rgb(247, 248, 252)",
+          "ratio": 5.898919538630956,
+          "minimum": 4.5,
+          "example": "↓"
+        },
+        {
+          "fg": "rgb(37, 43, 66)",
+          "bg": "rgb(247, 248, 252)",
+          "ratio": 13.166323662284071,
+          "minimum": 3,
+          "example": "AkademikKita."
+        },
+        {
+          "fg": "rgb(53, 86, 204)",
+          "bg": "rgb(247, 248, 252)",
+          "ratio": 5.898919538630956,
+          "minimum": 3,
+          "example": "Kita."
+        },
+        {
+          "fg": "rgb(37, 43, 66)",
+          "bg": "rgb(247, 248, 252)",
+          "ratio": 13.166323662284071,
+          "minimum": 4.5,
+          "example": "+"
+        },
+        {
+          "fg": "rgb(91, 99, 128)",
+          "bg": "rgb(247, 248, 252)",
+          "ratio": 5.5876729507770015,
+          "minimum": 4.5,
+          "example": "Beranda"
+        },
+        {
+          "fg": "rgb(69, 105, 232)",
+          "bg": "rgb(247, 248, 252)",
+          "ratio": 4.4577256002445855,
+          "minimum": 3,
+          "example": "dirimu."
+        },
+        {
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(69, 105, 232)",
+          "ratio": 4.730890117754796,
+          "minimum": 4.5,
+          "example": "Buat akun dan isi profil"
+        },
+        {
+          "fg": "rgb(53, 86, 204)",
+          "bg": "rgb(232, 239, 255)",
+          "ratio": 5.4321664861461905,
+          "minimum": 4.5,
+          "example": "Biaya"
+        },
+        {
+          "fg": "rgb(53, 86, 204)",
+          "bg": "rgb(232, 239, 255)",
+          "ratio": 5.4321664861461905,
+          "minimum": 3,
+          "example": "ikut dihitung."
+        },
+        {
+          "fg": "rgb(52, 67, 33)",
+          "bg": "rgb(217, 236, 171)",
+          "ratio": 8.39064219822338,
+          "minimum": 4.5,
+          "example": "Pilihanmu punya alasan."
+        },
+        {
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(69, 105, 232)",
+          "ratio": 4.730890117754796,
+          "minimum": 3,
+          "example": "04."
+        },
+        {
+          "fg": "rgb(217, 236, 171)",
+          "bg": "rgb(69, 105, 232)",
+          "ratio": 3.7253684075738227,
+          "minimum": 3,
+          "example": "."
+        },
+        {
+          "fg": "rgb(91, 99, 128)",
+          "bg": "rgb(232, 239, 255)",
+          "ratio": 5.145547339640591,
+          "minimum": 4.5,
+          "example": "Anggaran bulanan dan data biaya sekolah."
+        }
+      ]
+    },
+    {
+      "width": 768,
+      "pairs": [
+        {
+          "fg": "rgb(53, 86, 204)",
+          "bg": "rgb(247, 248, 252)",
+          "ratio": 5.898919538630956,
+          "minimum": 4.5,
+          "example": "↓"
+        },
+        {
+          "fg": "rgb(37, 43, 66)",
+          "bg": "rgb(247, 248, 252)",
+          "ratio": 13.166323662284071,
+          "minimum": 3,
+          "example": "AkademikKita."
+        },
+        {
+          "fg": "rgb(53, 86, 204)",
+          "bg": "rgb(247, 248, 252)",
+          "ratio": 5.898919538630956,
+          "minimum": 3,
+          "example": "Kita."
+        },
+        {
+          "fg": "rgb(37, 43, 66)",
+          "bg": "rgb(247, 248, 252)",
+          "ratio": 13.166323662284071,
+          "minimum": 4.5,
+          "example": "+"
+        },
+        {
+          "fg": "rgb(91, 99, 128)",
+          "bg": "rgb(247, 248, 252)",
+          "ratio": 5.5876729507770015,
+          "minimum": 4.5,
+          "example": "Beranda"
+        },
+        {
+          "fg": "rgb(69, 105, 232)",
+          "bg": "rgb(247, 248, 252)",
+          "ratio": 4.4577256002445855,
+          "minimum": 3,
+          "example": "dirimu."
+        },
+        {
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(69, 105, 232)",
+          "ratio": 4.730890117754796,
+          "minimum": 4.5,
+          "example": "Buat akun dan isi profil"
+        },
+        {
+          "fg": "rgb(53, 86, 204)",
+          "bg": "rgb(232, 239, 255)",
+          "ratio": 5.4321664861461905,
+          "minimum": 4.5,
+          "example": "Biaya"
+        },
+        {
+          "fg": "rgb(53, 86, 204)",
+          "bg": "rgb(232, 239, 255)",
+          "ratio": 5.4321664861461905,
+          "minimum": 3,
+          "example": "ikut dihitung."
+        },
+        {
+          "fg": "rgb(52, 67, 33)",
+          "bg": "rgb(217, 236, 171)",
+          "ratio": 8.39064219822338,
+          "minimum": 4.5,
+          "example": "Pilihanmu punya alasan."
+        },
+        {
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(69, 105, 232)",
+          "ratio": 4.730890117754796,
+          "minimum": 3,
+          "example": "Rekomendasi"
+        },
+        {
+          "fg": "rgb(217, 236, 171)",
+          "bg": "rgb(69, 105, 232)",
+          "ratio": 3.7253684075738227,
+          "minimum": 3,
+          "example": "."
+        },
+        {
+          "fg": "rgb(91, 99, 128)",
+          "bg": "rgb(232, 239, 255)",
+          "ratio": 5.145547339640591,
+          "minimum": 4.5,
+          "example": "Anggaran bulanan dan data biaya sekolah."
+        }
+      ]
+    },
+    {
+      "width": 1440,
+      "pairs": [
+        {
+          "fg": "rgb(53, 86, 204)",
+          "bg": "rgb(247, 248, 252)",
+          "ratio": 5.898919538630956,
+          "minimum": 4.5,
+          "example": "↓"
+        },
+        {
+          "fg": "rgb(37, 43, 66)",
+          "bg": "rgb(247, 248, 252)",
+          "ratio": 13.166323662284071,
+          "minimum": 3,
+          "example": "AkademikKita."
+        },
+        {
+          "fg": "rgb(53, 86, 204)",
+          "bg": "rgb(247, 248, 252)",
+          "ratio": 5.898919538630956,
+          "minimum": 3,
+          "example": "Kita."
+        },
+        {
+          "fg": "rgb(37, 43, 66)",
+          "bg": "rgb(247, 248, 252)",
+          "ratio": 13.166323662284071,
+          "minimum": 4.5,
+          "example": "Masuk"
+        },
+        {
+          "fg": "rgb(91, 99, 128)",
+          "bg": "rgb(247, 248, 252)",
+          "ratio": 5.5876729507770015,
+          "minimum": 4.5,
+          "example": "Beranda"
+        },
+        {
+          "fg": "rgb(69, 105, 232)",
+          "bg": "rgb(247, 248, 252)",
+          "ratio": 4.4577256002445855,
+          "minimum": 3,
+          "example": "dirimu."
+        },
+        {
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(69, 105, 232)",
+          "ratio": 4.730890117754796,
+          "minimum": 4.5,
+          "example": "Buat akun dan isi profil"
+        },
+        {
+          "fg": "rgb(53, 86, 204)",
+          "bg": "rgb(232, 239, 255)",
+          "ratio": 5.4321664861461905,
+          "minimum": 4.5,
+          "example": "Biaya"
+        },
+        {
+          "fg": "rgb(53, 86, 204)",
+          "bg": "rgb(232, 239, 255)",
+          "ratio": 5.4321664861461905,
+          "minimum": 3,
+          "example": "ikut dihitung."
+        },
+        {
+          "fg": "rgb(52, 67, 33)",
+          "bg": "rgb(217, 236, 171)",
+          "ratio": 8.39064219822338,
+          "minimum": 4.5,
+          "example": "Pilihanmu punya alasan."
+        },
+        {
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(69, 105, 232)",
+          "ratio": 4.730890117754796,
+          "minimum": 3,
+          "example": "Rekomendasi"
+        },
+        {
+          "fg": "rgb(217, 236, 171)",
+          "bg": "rgb(69, 105, 232)",
+          "ratio": 3.7253684075738227,
+          "minimum": 3,
+          "example": "."
+        },
+        {
+          "fg": "rgb(91, 99, 128)",
+          "bg": "rgb(232, 239, 255)",
+          "ratio": 5.145547339640591,
+          "minimum": 4.5,
+          "example": "Anggaran bulanan dan data biaya sekolah."
+        }
+      ]
+    }
+  ],
+  "runtimeErrors": []
+}

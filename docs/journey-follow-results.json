@@ -1,0 +1,271 @@
+{
+  "layouts": [
+    {
+      "width": 1440,
+      "height": 1000,
+      "follows": true
+    },
+    {
+      "width": 1200,
+      "height": 650,
+      "follows": true
+    },
+    {
+      "width": 1024,
+      "height": 500,
+      "follows": true
+    },
+    {
+      "width": 820,
+      "height": 900,
+      "follows": true
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "follows": true
+    },
+    {
+      "width": 320,
+      "height": 640,
+      "follows": true
+    }
+  ],
+  "chapters": [
+    {
+      "width": 1440,
+      "height": 524.71875,
+      "chapter": 1,
+      "top": 47.671875,
+      "bottom": 572.390625,
+      "expected": 28,
+      "follows": "true"
+    },
+    {
+      "width": 1440,
+      "height": 524.71875,
+      "chapter": 2,
+      "top": 28,
+      "bottom": 552.71875,
+      "expected": 28,
+      "follows": "true"
+    },
+    {
+      "width": 1440,
+      "height": 524.71875,
+      "chapter": 3,
+      "top": 28,
+      "bottom": 552.71875,
+      "expected": 28,
+      "follows": "true"
+    },
+    {
+      "width": 1440,
+      "height": 524.71875,
+      "chapter": 4,
+      "top": 28,
+      "bottom": 552.71875,
+      "expected": 28,
+      "follows": "true"
+    },
+    {
+      "width": 1200,
+      "height": 312.859375,
+      "chapter": 1,
+      "top": 39.296875,
+      "bottom": 352.15625,
+      "expected": 19.5,
+      "follows": "true"
+    },
+    {
+      "width": 1200,
+      "height": 312.859375,
+      "chapter": 2,
+      "top": 19.5,
+      "bottom": 332.359375,
+      "expected": 19.5,
+      "follows": "true"
+    },
+    {
+      "width": 1200,
+      "height": 312.859375,
+      "chapter": 3,
+      "top": 19.5,
+      "bottom": 332.359375,
+      "expected": 19.5,
+      "follows": "true"
+    },
+    {
+      "width": 1200,
+      "height": 312.859375,
+      "chapter": 4,
+      "top": 19.5,
+      "bottom": 332.359375,
+      "expected": 19.5,
+      "follows": "true"
+    },
+    {
+      "width": 1024,
+      "height": 312.859375,
+      "chapter": 1,
+      "top": 36.421875,
+      "bottom": 349.28125,
+      "expected": 16,
+      "follows": "true"
+    },
+    {
+      "width": 1024,
+      "height": 312.859375,
+      "chapter": 2,
+      "top": 16,
+      "bottom": 328.859375,
+      "expected": 16,
+      "follows": "true"
+    },
+    {
+      "width": 1024,
+      "height": 312.859375,
+      "chapter": 3,
+      "top": 16,
+      "bottom": 328.859375,
+      "expected": 16,
+      "follows": "true"
+    },
+    {
+      "width": 1024,
+      "height": 312.859375,
+      "chapter": 4,
+      "top": 16,
+      "bottom": 328.859375,
+      "expected": 16,
+      "follows": "true"
+    },
+    {
+      "width": 820,
+      "height": 142,
+      "chapter": 1,
+      "top": 31.59375,
+      "bottom": 173.59375,
+      "expected": 27,
+      "follows": "true"
+    },
+    {
+      "width": 820,
+      "height": 142,
+      "chapter": 2,
+      "top": 27,
+      "bottom": 169,
+      "expected": 27,
+      "follows": "true"
+    },
+    {
+      "width": 820,
+      "height": 142,
+      "chapter": 3,
+      "top": 27,
+      "bottom": 169,
+      "expected": 27,
+      "follows": "true"
+    },
+    {
+      "width": 820,
+      "height": 142,
+      "chapter": 4,
+      "top": 27,
+      "bottom": 169,
+      "expected": 27,
+      "follows": "true"
+    },
+    {
+      "width": 390,
+      "height": 179,
+      "chapter": 1,
+      "top": 30.609375,
+      "bottom": 209.609375,
+      "expected": 25.32,
+      "follows": "true"
+    },
+    {
+      "width": 390,
+      "height": 179,
+      "chapter": 2,
+      "top": 25.3125,
+      "bottom": 204.3125,
+      "expected": 25.32,
+      "follows": "true"
+    },
+    {
+      "width": 390,
+      "height": 179,
+      "chapter": 3,
+      "top": 25.3125,
+      "bottom": 204.3125,
+      "expected": 25.32,
+      "follows": "true"
+    },
+    {
+      "width": 390,
+      "height": 179,
+      "chapter": 4,
+      "top": 25.3125,
+      "bottom": 204.3125,
+      "expected": 25.32,
+      "follows": "true"
+    },
+    {
+      "width": 320,
+      "height": 179,
+      "chapter": 1,
+      "top": 24.65625,
+      "bottom": 203.65625,
+      "expected": 19.2,
+      "follows": "true"
+    },
+    {
+      "width": 320,
+      "height": 179,
+      "chapter": 2,
+      "top": 19.1875,
+      "bottom": 198.1875,
+      "expected": 19.2,
+      "follows": "true"
+    },
+    {
+      "width": 320,
+      "height": 179,
+      "chapter": 3,
+      "top": 19.1875,
+      "bottom": 198.1875,
+      "expected": 19.2,
+      "follows": "true"
+    },
+    {
+      "width": 320,
+      "height": 179,
+      "chapter": 4,
+      "top": 19.1875,
+      "bottom": 198.1875,
+      "expected": 19.2,
+      "follows": "true"
+    }
+  ],
+  "links": [
+    "Panel 1: anchor targets matching chapter and updates selected number",
+    "Panel 2: anchor targets matching chapter and updates selected number",
+    "Panel 3: anchor targets matching chapter and updates selected number",
+    "Panel 4: anchor targets matching chapter and updates selected number",
+    "Panel 1: anchor targets matching chapter and updates selected number",
+    "Mobile panel 1: selected chapter remains below sticky panel",
+    "Mobile panel 2: selected chapter remains below sticky panel",
+    "Mobile panel 3: selected chapter remains below sticky panel",
+    "Mobile panel 4: selected chapter remains below sticky panel"
+  ],
+  "checks": [
+    "Four chapter links work in both directions, with keyboard Enter and visible focus",
+    "Panel stays in place during mouse wheel scrolling down and back up",
+    "Reduced motion keeps CSS sticky and active chapter without animation",
+    "At 200% text panel returns to normal flow, all four links reachable without horizontal overflow",
+    "Leaving Home removes journey without leftover pin spacers"
+  ],
+  "errors": []
+}

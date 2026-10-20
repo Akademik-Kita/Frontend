@@ -1,0 +1,41 @@
+{
+  "clicks": [
+    "Slide sebelumnya -> first slide, upward morph visible",
+    "Slide berikutnya -> second slide",
+    "Dash pagination 1 -> slide 1, aria-current updated",
+    "Dash pagination 2 -> slide 2, aria-current updated",
+    "Dash pagination 3 -> slide 3, aria-current updated",
+    "Dash pagination 4 -> slide 4, aria-current updated",
+    "Dash pagination 5 -> slide 5, aria-current updated",
+    "Dash pagination 6 -> slide 6, aria-current updated",
+    "Dash pagination 7 -> slide 7, aria-current updated",
+    "Footer Kembali ke atas -> first slide",
+    "Navbar Pertimbangan -> slide 6",
+    "Navbar Cara memilih -> slide 2",
+    "Header wordmark -> first slide",
+    "Final CTA at 200% text/short screen -> register; global snap and controls cleaned up"
+  ],
+  "checks": [
+    "A 1600px mouse wheel gesture stops at the next slide, aligned below header",
+    "SVG path changes during visible downward morph; overlay disappears after transition",
+    "PageDown on main advances one slide",
+    "320px: all seven slides reachable, no page/panel horizontal overflow, mobile menu anchor works",
+    "390px: all seven slides reachable, no page/panel horizontal overflow, mobile menu anchor works",
+    "768px: all seven slides reachable, no page/panel horizontal overflow, mobile menu anchor works",
+    "1024px: all seven slides reachable, no page/panel horizontal overflow, mobile menu anchor works",
+    "Reduced motion: proximity snap, no morph, next control remains usable",
+    "Existing signed-in Home still works with no leaked public scroll snap"
+  ],
+  "morph": [
+    {
+      "direction": "down",
+      "before": "M 0 0 C 25 0 75 0 100 0 L 100 0.13 C 75 0.234 25 0.026 0 0.13 Z",
+      "after": "M 0 0 C 25 0 75 0 100 0 L 100 15.8085 C 75 28.4552 25 3.1617 0 15.8085 Z"
+    },
+    {
+      "direction": "up",
+      "d": "M 0 99.95 C 25 99.91 75 99.99 100 99.95 L 100 100 C 75 100 25 100 0 100 Z"
+    }
+  ],
+  "runtimeErrors": []
+}

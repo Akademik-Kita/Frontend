@@ -1,0 +1,402 @@
+{
+  "clicks": [
+    "Public: keyboard skip link -> #main-content",
+    "Public: AkademikKita. -> /",
+    "Public: Cara memilih -> /#alur",
+    "Public: Pertimbangan -> /#pertimbangan",
+    "Public: Masuk -> /login",
+    "Public: Buat akun siswa -> /register",
+    "Public: Scroll untuk melihat alurnya↓ -> /#alur",
+    "Public: 01 -> /#profil",
+    "Public: 02 -> /#nilai",
+    "Public: 03 -> /#minat",
+    "Public: 04 -> /#pilihan",
+    "Public: Isi profil dan preferensi -> /register",
+    "Public: Tambahkan nilai rapor -> /register",
+    "Public: Kerjakan tes minat -> /register",
+    "Public: Lihat rekomendasi SMA -> /register",
+    "Public: Buat akun dan isi profil -> /register",
+    "Public: AkademikKita. -> /",
+    "Public: Kembali ke atas ↑ -> /#main-content",
+    "Register: empty submit -> field validation; no account created",
+    "Login: empty submit -> field validation",
+    "Public 320px: Menu opens, Escape closes and restores focus, Cara memilih navigates",
+    "Public 390px: Menu opens, Escape closes and restores focus, Cara memilih navigates",
+    "Public 768px: Menu opens, Escape closes and restores focus, Cara memilih navigates",
+    "Public 1024px: Menu opens, Escape closes and restores focus, Cara memilih navigates",
+    "Demo login form -> /home; profile completeness matches backend response",
+    "Member: AkademikKita. -> /home",
+    "Member: Home -> /home",
+    "Member: Profil -> /profile",
+    "Member: Tes minat -> /interest-test",
+    "Member: Hasil tes -> /interest-result",
+    "Member: Rekomendasi -> /recommendations",
+    "Member: Bandingkan -> /compare",
+    "Member: Lihat perjalanan saya -> /home#perjalanan",
+    "Member: Lihat rekomendasi SMA -> /recommendations",
+    "Member: Scroll untuk memeriksa pilihanmu↓ -> /home#perjalanan",
+    "Member: 01 -> /home#profil-saya",
+    "Member: 02 -> /home#nilai-saya",
+    "Member: 03 -> /home#minat-saya",
+    "Member: 04 -> /home#pilihan-saya",
+    "Member: Periksa profil dan preferensi -> /profile",
+    "Member: Buka nilai rapor -> /profile?section=nilai",
+    "Member: Baca hasil tes minat -> /interest-result",
+    "Member: Buka rekomendasi SMA -> /recommendations",
+    "Member: Buka seluruh rekomendasi -> /recommendations",
+    "Member: SMA Negeri Contoh 12 -> /schools/4cc05b48-5ca4-517e-83bf-5aca83bb1cb9",
+    "Member: SMA Negeri Contoh 11 -> /schools/8bb5fa5f-4244-57e3-8a33-2097f7150188",
+    "Member: SMA Negeri Contoh 11 -> /schools/8bb5fa5f-4244-57e3-8a33-2097f7150188",
+    "Member: AkademikKita. -> /home",
+    "Member: Tentang AkademikKita -> /",
+    "Member: Kembali ke atas ↑ -> /home#main-content",
+    "Member 320px: Menu opens all six destinations; Home closes menu",
+    "Member 390px: Menu opens all six destinations; Home closes menu",
+    "Member 768px: Menu opens all six destinations; Home closes menu",
+    "Member 1024px: Menu opens all six destinations; Home closes menu",
+    "Home error fixture: 503 -> visible error; Muat ulang data -> live data restored",
+    "Member Keluar -> /login; stored token cleared"
+  ],
+  "checks": [
+    "Public 320px: no horizontal overflow",
+    "Public 390px: no horizontal overflow",
+    "Public 768px: no horizontal overflow",
+    "Public 1024px: no horizontal overflow",
+    "Public 1440px: no horizontal overflow",
+    "GSAP desktop: scroll to minat updates stage to Tes minat and pins stage",
+    "Public reduced motion: no pin-spacer, no GSAP intro transforms or opacity",
+    "Guest /home -> /login",
+    "Direct Nilai rapor link opens selected nilai tab",
+    "Authenticated /login -> /home",
+    "Member 320px: no horizontal overflow",
+    "Member 390px: no horizontal overflow",
+    "Member 768px: no horizontal overflow",
+    "Member 1024px: no horizontal overflow",
+    "Member 1440px: no horizontal overflow",
+    "Loading: named status visible while API request held; replaced by real data after release",
+    "Empty API fixtures: profile 0, no grades, assessment/recommendations 404 -> clear empty states and profile next action",
+    "Member reduced motion: all chapters visible without pinning",
+    "Member 390px at 200% text size: no horizontal overflow",
+    "Public 390px at 200% text size: no horizontal overflow",
+    "Protected deep link preserved: /compare -> login -> /compare"
+  ],
+  "contrasts": [
+    {
+      "label": "Public desktop",
+      "pairs": [
+        {
+          "fg": "rgb(98, 53, 173)",
+          "bg": "rgb(250, 248, 244)",
+          "ratio": 7.522066960986192,
+          "minimum": 4.5,
+          "example": "Langsung ke konten"
+        },
+        {
+          "fg": "rgb(40, 30, 56)",
+          "bg": "rgb(250, 248, 244)",
+          "ratio": 14.851865161669602,
+          "minimum": 3,
+          "example": "AkademikKita."
+        },
+        {
+          "fg": "rgb(98, 53, 173)",
+          "bg": "rgb(250, 248, 244)",
+          "ratio": 7.522066960986192,
+          "minimum": 3,
+          "example": "Kita."
+        },
+        {
+          "fg": "rgb(40, 30, 56)",
+          "bg": "rgb(250, 248, 244)",
+          "ratio": 14.851865161669602,
+          "minimum": 4.5,
+          "example": "Masuk"
+        },
+        {
+          "fg": "rgb(96, 84, 106)",
+          "bg": "rgb(250, 248, 244)",
+          "ratio": 6.657930297931135,
+          "minimum": 4.5,
+          "example": "Kembali ke atas ↑"
+        },
+        {
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(98, 53, 173)",
+          "ratio": 7.978719433698739,
+          "minimum": 4.5,
+          "example": "Buat akun dan isi profil"
+        },
+        {
+          "fg": "rgb(73, 33, 128)",
+          "bg": "rgb(233, 224, 245)",
+          "ratio": 9.073188011598909,
+          "minimum": 4.5,
+          "example": "Biaya"
+        },
+        {
+          "fg": "rgb(73, 33, 128)",
+          "bg": "rgb(233, 224, 245)",
+          "ratio": 9.073188011598909,
+          "minimum": 3,
+          "example": "ikut dihitung."
+        },
+        {
+          "fg": "rgb(52, 67, 33)",
+          "bg": "rgb(217, 236, 171)",
+          "ratio": 8.39064219822338,
+          "minimum": 4.5,
+          "example": "Pilihanmu punya alasan."
+        },
+        {
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(98, 53, 173)",
+          "ratio": 7.978719433698739,
+          "minimum": 3,
+          "example": "Profil & preferensi"
+        },
+        {
+          "fg": "rgb(217, 236, 171)",
+          "bg": "rgb(98, 53, 173)",
+          "ratio": 6.282891500617428,
+          "minimum": 3,
+          "example": "."
+        },
+        {
+          "fg": "rgb(244, 237, 252)",
+          "bg": "rgb(98, 53, 173)",
+          "ratio": 6.977940682627599,
+          "minimum": 4.5,
+          "example": "Jarak"
+        },
+        {
+          "fg": "rgb(73, 33, 128)",
+          "bg": "rgb(250, 248, 244)",
+          "ratio": 10.922851307909413,
+          "minimum": 4.5,
+          "example": "Lihat rekomendasi SMA"
+        },
+        {
+          "fg": "rgb(96, 84, 106)",
+          "bg": "rgb(233, 224, 245)",
+          "ratio": 5.530483905562922,
+          "minimum": 4.5,
+          "example": "Anggaran bulanan dan data biaya sekolah."
+        }
+      ]
+    },
+    {
+      "label": "Member desktop",
+      "pairs": [
+        {
+          "fg": "rgb(98, 53, 173)",
+          "bg": "rgb(250, 248, 244)",
+          "ratio": 7.522066960986192,
+          "minimum": 4.5,
+          "example": "Langsung ke konten"
+        },
+        {
+          "fg": "rgb(40, 30, 56)",
+          "bg": "rgb(250, 248, 244)",
+          "ratio": 14.851865161669602,
+          "minimum": 3,
+          "example": "AkademikKita."
+        },
+        {
+          "fg": "rgb(98, 53, 173)",
+          "bg": "rgb(250, 248, 244)",
+          "ratio": 7.522066960986192,
+          "minimum": 3,
+          "example": "Kita."
+        },
+        {
+          "fg": "rgb(73, 33, 128)",
+          "bg": "rgb(233, 224, 245)",
+          "ratio": 9.073188011598909,
+          "minimum": 4.5,
+          "example": "SMA Negeri Contoh 11"
+        },
+        {
+          "fg": "rgb(40, 30, 56)",
+          "bg": "rgb(250, 248, 244)",
+          "ratio": 14.851865161669602,
+          "minimum": 4.5,
+          "example": "Keluar"
+        },
+        {
+          "fg": "rgb(96, 84, 106)",
+          "bg": "rgb(250, 248, 244)",
+          "ratio": 6.657930297931135,
+          "minimum": 4.5,
+          "example": "Kembali ke atas ↑"
+        },
+        {
+          "fg": "rgb(73, 33, 128)",
+          "bg": "rgb(250, 248, 244)",
+          "ratio": 10.922851307909413,
+          "minimum": 4.5,
+          "example": "Tentang AkademikKita"
+        },
+        {
+          "fg": "rgb(73, 33, 128)",
+          "bg": "rgb(233, 224, 245)",
+          "ratio": 9.073188011598909,
+          "minimum": 3,
+          "example": "87,6"
+        },
+        {
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(98, 53, 173)",
+          "ratio": 7.978719433698739,
+          "minimum": 4.5,
+          "example": "04"
+        },
+        {
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(98, 53, 173)",
+          "ratio": 7.978719433698739,
+          "minimum": 3,
+          "example": "Profil & preferensi"
+        },
+        {
+          "fg": "rgb(217, 236, 171)",
+          "bg": "rgb(98, 53, 173)",
+          "ratio": 6.282891500617428,
+          "minimum": 3,
+          "example": "."
+        },
+        {
+          "fg": "rgb(244, 237, 252)",
+          "bg": "rgb(98, 53, 173)",
+          "ratio": 6.977940682627599,
+          "minimum": 4.5,
+          "example": "Jarak"
+        },
+        {
+          "fg": "rgb(96, 84, 106)",
+          "bg": "rgb(233, 224, 245)",
+          "ratio": 5.530483905562922,
+          "minimum": 4.5,
+          "example": "Rekomendasi adalah alat bantu. Pastikan informasi "
+        },
+        {
+          "fg": "rgb(40, 30, 56)",
+          "bg": "rgb(233, 224, 245)",
+          "ratio": 12.336867099634208,
+          "minimum": 3,
+          "example": "pertimbanganmu."
+        },
+        {
+          "fg": "rgb(98, 53, 173)",
+          "bg": "rgb(233, 224, 245)",
+          "ratio": 6.24828864267738,
+          "minimum": 4.5,
+          "example": "03"
+        }
+      ]
+    },
+    {
+      "label": "Member empty",
+      "pairs": [
+        {
+          "fg": "rgb(98, 53, 173)",
+          "bg": "rgb(250, 248, 244)",
+          "ratio": 7.522066960986192,
+          "minimum": 4.5,
+          "example": "Langsung ke konten"
+        },
+        {
+          "fg": "rgb(40, 30, 56)",
+          "bg": "rgb(250, 248, 244)",
+          "ratio": 14.851865161669602,
+          "minimum": 3,
+          "example": "AkademikKita."
+        },
+        {
+          "fg": "rgb(98, 53, 173)",
+          "bg": "rgb(250, 248, 244)",
+          "ratio": 7.522066960986192,
+          "minimum": 3,
+          "example": "Kita."
+        },
+        {
+          "fg": "rgb(73, 33, 128)",
+          "bg": "rgb(233, 224, 245)",
+          "ratio": 9.073188011598909,
+          "minimum": 4.5,
+          "example": "Buka seluruh rekomendasi"
+        },
+        {
+          "fg": "rgb(40, 30, 56)",
+          "bg": "rgb(250, 248, 244)",
+          "ratio": 14.851865161669602,
+          "minimum": 4.5,
+          "example": "Belum ada rekomendasi tersimpan."
+        },
+        {
+          "fg": "rgb(96, 84, 106)",
+          "bg": "rgb(250, 248, 244)",
+          "ratio": 6.657930297931135,
+          "minimum": 4.5,
+          "example": "Kembali ke atas ↑"
+        },
+        {
+          "fg": "rgb(73, 33, 128)",
+          "bg": "rgb(250, 248, 244)",
+          "ratio": 10.922851307909413,
+          "minimum": 4.5,
+          "example": "Tentang AkademikKita"
+        },
+        {
+          "fg": "rgb(73, 33, 128)",
+          "bg": "rgb(233, 224, 245)",
+          "ratio": 9.073188011598909,
+          "minimum": 3,
+          "example": "berikutnya."
+        },
+        {
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(98, 53, 173)",
+          "ratio": 7.978719433698739,
+          "minimum": 4.5,
+          "example": "Siapkan rekomendasi saya"
+        },
+        {
+          "fg": "rgb(255, 255, 255)",
+          "bg": "rgb(98, 53, 173)",
+          "ratio": 7.978719433698739,
+          "minimum": 3,
+          "example": "Profil & preferensi"
+        },
+        {
+          "fg": "rgb(217, 236, 171)",
+          "bg": "rgb(98, 53, 173)",
+          "ratio": 6.282891500617428,
+          "minimum": 3,
+          "example": "."
+        },
+        {
+          "fg": "rgb(244, 237, 252)",
+          "bg": "rgb(98, 53, 173)",
+          "ratio": 6.977940682627599,
+          "minimum": 4.5,
+          "example": "Jarak"
+        },
+        {
+          "fg": "rgb(96, 84, 106)",
+          "bg": "rgb(233, 224, 245)",
+          "ratio": 5.530483905562922,
+          "minimum": 4.5,
+          "example": "Rekomendasi adalah alat bantu. Pastikan informasi "
+        },
+        {
+          "fg": "rgb(40, 30, 56)",
+          "bg": "rgb(233, 224, 245)",
+          "ratio": 12.336867099634208,
+          "minimum": 3,
+          "example": "pertimbanganmu."
+        }
+      ]
+    }
+  ],
+  "runtimeErrors": []
+}
