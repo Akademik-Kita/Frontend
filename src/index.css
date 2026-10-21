@@ -5,6 +5,11 @@
 
   --color-primary: #4569e8;
   --color-primary-dark: #3556cc;
+  --color-link: #3556cc;
+  --color-surface: #ffffff;
+  --color-tint: #e8efff;
+  --color-rule: #c2cce3;
+  --color-paper-shadow: #cfdbfa;
   --color-lavender: #eae8ff;
   --color-softyellow: #fff4d8;
   --color-softgreen: #e0f5e9;
@@ -14,12 +19,39 @@
   /* Turunan netral dan status: di luar token brief, dipakai untuk teks sekunder, garis, dan error. */
   --color-muted: #5b6380;
   --color-line: #e3e6f0;
+  --color-control: var(--color-line);
   --color-danger: #b3261e;
   --color-dangersoft: #fdecea;
 }
 
 html {
   background-color: var(--color-page);
+  color-scheme: light;
+}
+
+html[data-theme='dark'] {
+  color-scheme: dark;
+  --color-page: #11151c;
+  --color-surface: #1b222d;
+  --color-ink: #e8edf5;
+  --color-muted: #a6b2c3;
+  --color-primary: #4668d9;
+  --color-primary-dark: #3b59c2;
+  --color-link: #91b5ff;
+  --color-line: #303b4c;
+  --color-control: #6f7d91;
+  --color-tint: #202d41;
+  --color-rule: #39485f;
+  --color-paper-shadow: #273449;
+  --color-lavender: #243249;
+  --color-softyellow: #352d1d;
+  --color-softgreen: #1b322b;
+  --color-danger: #f0a49e;
+  --color-dangersoft: #3c2429;
+}
+
+html[data-theme='dark'] .bg-danger.text-white {
+  color: #35100d;
 }
 
 body {

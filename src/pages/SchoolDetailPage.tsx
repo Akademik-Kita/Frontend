@@ -23,7 +23,7 @@ export default function SchoolDetailPage() {
     return () => { active = false; };
   }, [id]);
   return <div className="space-y-6">
-    <div><Link to="/recommendations" className="text-sm font-semibold text-primary hover:underline">← Kembali ke rekomendasi</Link></div>
+    <div><Link to="/recommendations" className="text-sm font-semibold text-link hover:underline">← Kembali ke rekomendasi</Link></div>
     {loading ? <LoadingState rows={4} /> : error ? <ErrorState message={error} onRetry={() => { setLoading(true); setError(''); getSchool(id).then(setSchool).catch((err: unknown) => setError(err instanceof ApiError ? err.message : 'Detail sekolah belum bisa dimuat.')).finally(() => setLoading(false)); }} /> : school ? <><PageHeader title={school.name} description="Informasi sekolah, jurusan, fasilitas, dan riwayat penerimaan yang tersedia." action={<Button variant="secondary" onClick={() => window.history.back()}>Kembali</Button>} /><SchoolDetail school={school} /></> : null}
   </div>;
 }

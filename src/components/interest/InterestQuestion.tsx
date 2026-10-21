@@ -29,7 +29,7 @@ export function InterestQuestion({ question, value, onChange, disabled = false }
                 'sm:min-h-24 sm:flex-col sm:justify-center sm:gap-2 sm:px-2 sm:text-center',
                 selected
                   ? 'border-primary bg-primary text-white'
-                  : 'border-line bg-white text-ink hover:border-primary hover:bg-lavender',
+                  : 'border-line bg-surface text-ink hover:border-primary hover:bg-lavender',
                 disabled && 'cursor-not-allowed opacity-60',
               )}
             >

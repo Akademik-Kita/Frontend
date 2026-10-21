@@ -76,7 +76,7 @@ export default function InterestResultPage() {
                       <span className="text-base font-semibold text-ink">{dimension.label}</span>
                       <div className="flex items-center gap-2">
                         {position < 2 ? <Badge tone={position === 0 ? 'yellow' : 'green'}>Teratas</Badge> : null}
-                        <span className="text-base font-bold text-primary">{assessment.scores[dimension.key]}</span>
+                        <span className="text-base font-bold text-link">{assessment.scores[dimension.key]}</span>
                       </div>
                     </div>
                     <p className="mt-1 text-sm text-muted">{dimension.description}</p>

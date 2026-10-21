@@ -8,7 +8,7 @@ export function SchoolSearchList({ schools, onSelect, selectedIds = [] }: {
   onSelect?: (school: School) => void;
   selectedIds?: Array<string | number>;
 }) {
-  if (!schools.length) return <div className="rounded-2xl border border-dashed border-line bg-white p-8 text-center"><p className="font-bold text-ink">Sekolah tidak ditemukan</p><p className="mt-1 text-sm text-muted">Coba ubah kata kunci atau filter pencarianmu.</p></div>;
+  if (!schools.length) return <div className="rounded-2xl border border-dashed border-line bg-surface p-8 text-center"><p className="font-bold text-ink">Sekolah tidak ditemukan</p><p className="mt-1 text-sm text-muted">Coba ubah kata kunci atau filter pencarianmu.</p></div>;
   return <div className="grid gap-4 md:grid-cols-2">
     {schools.map((school) => {
       const selected = selectedIds.includes(school.id);
@@ -20,7 +20,7 @@ export function SchoolSearchList({ schools, onSelect, selectedIds = [] }: {
         <div className="flex flex-wrap gap-2">{school.accreditation && <Badge tone="green">Akreditasi {school.accreditation}</Badge>}{typeof school.distance_km === 'number' && <Badge tone="neutral">{school.distance_km.toFixed(1)} km</Badge>}</div>
         <div className="mt-auto flex flex-wrap gap-2">
           <Link to={`/schools/${school.id}`} className="inline-flex h-10 items-center rounded-xl bg-primary px-4 text-sm font-semibold text-white hover:bg-primary-dark">Detail sekolah</Link>
-          {onSelect && <button type="button" onClick={() => onSelect(school)} disabled={!selected && selectedIds.length >= 4} className="rounded-xl border border-primary px-4 py-2 text-sm font-semibold text-primary disabled:opacity-40">{selected ? 'Hapus pilihan' : 'Bandingkan'}</button>}
+          {onSelect && <button type="button" onClick={() => onSelect(school)} disabled={!selected && selectedIds.length >= 4} className="rounded-xl border border-primary px-4 py-2 text-sm font-semibold text-link disabled:opacity-40">{selected ? 'Hapus pilihan' : 'Bandingkan'}</button>}
         </div>
       </Card>;
     })}

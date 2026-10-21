@@ -8,7 +8,7 @@ interface CardProps extends HTMLAttributes<HTMLDivElement> {
 }
 
 const tones = {
-  white: 'bg-white border-line',
+  white: 'bg-surface border-line',
   lavender: 'bg-lavender border-lavender',
   yellow: 'bg-softyellow border-softyellow',
   green: 'bg-softgreen border-softgreen',

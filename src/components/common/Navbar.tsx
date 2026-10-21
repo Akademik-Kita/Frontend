@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Link, NavLink, useLocation, useNavigate } from 'react-router-dom';
 import { useAuthStore } from '../../store/authStore';
+import { ThemeToggle } from './ThemeToggle';
 import './Navbar.css';
 
 const memberLinks = [
@@ -97,6 +98,7 @@ export function Navbar({ variant = 'app' }: { variant?: 'landing' | 'public' | '
           {renderLinks()}
         </nav>
         <div className="ak-nav-actions">
+          <ThemeToggle />
           {account}
           <button
             ref={menuButton}

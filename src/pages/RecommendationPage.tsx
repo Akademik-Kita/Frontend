@@ -104,7 +104,7 @@ export default function RecommendationPage() {
       <div className="grid items-start gap-6 lg:grid-cols-[minmax(280px,0.8fr)_minmax(0,1.5fr)]">
         <div className="lg:sticky lg:top-5"><WeightSliders weights={weights} onChange={changeWeight} onApply={() => void applyWeights()} loading={applying} dirty={dirty} /></div>
         <div className="space-y-4">
-          <div className="flex flex-wrap items-end justify-between gap-3"><div><h2 className="text-xl font-bold text-ink">Pilihan untukmu</h2><p className="mt-1 text-sm text-muted">{items.length ? `${items.length} rekomendasi dari hasil perhitungan terakhir` : 'Belum ada hasil. Terapkan bobot untuk membuat rekomendasi.'}</p></div>{selectedIds.length > 0 && <Link to="/compare" state={{ schoolIds: selectedIds }} className="inline-flex h-10 items-center rounded-xl border border-primary px-4 text-sm font-semibold text-primary">Bandingkan ({selectedIds.length})</Link>}</div>
+          <div className="flex flex-wrap items-end justify-between gap-3"><div><h2 className="text-xl font-bold text-ink">Pilihan untukmu</h2><p className="mt-1 text-sm text-muted">{items.length ? `${items.length} rekomendasi dari hasil perhitungan terakhir` : 'Belum ada hasil. Terapkan bobot untuk membuat rekomendasi.'}</p></div>{selectedIds.length > 0 && <Link to="/compare" state={{ schoolIds: selectedIds }} className="inline-flex h-10 items-center rounded-xl border border-primary px-4 text-sm font-semibold text-link">Bandingkan ({selectedIds.length})</Link>}</div>
           <RecommendationList items={items} selectedIds={selectedIds} onToggleCompare={toggleCompare} />
         </div>
       </div>

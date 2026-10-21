@@ -11,7 +11,7 @@ interface Props {
 }
 export function SchoolFilters({ filters, onChange, onSearch, loading = false }: Props) {
   return (
-    <form className="grid gap-4 rounded-2xl border border-line bg-white p-5 sm:grid-cols-2 lg:grid-cols-4" onSubmit={(e) => { e.preventDefault(); onSearch(); }}>
+    <form className="grid gap-4 rounded-2xl border border-line bg-surface p-5 sm:grid-cols-2 lg:grid-cols-4" onSubmit={(e) => { e.preventDefault(); onSearch(); }}>
       <Input label="Cari sekolah" placeholder="Nama, NPSN, atau kota..." value={filters.search ?? ''} onChange={(e) => onChange({ ...filters, search: e.target.value })} />
       <Input label="Kecamatan" placeholder="Contoh: Cilandak" value={filters.kecamatan ?? ''} onChange={(e) => onChange({ ...filters, kecamatan: e.target.value })} />
       <Select label="Status sekolah" value={filters.ownership ?? ''} onChange={(e) => onChange({ ...filters, ownership: e.target.value })}>

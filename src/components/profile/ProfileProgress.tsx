@@ -28,7 +28,7 @@ export function ProfileProgress({ completeness }: ProfileProgressProps) {
         aria-valuemin={0}
         aria-valuemax={100}
         aria-label="Kelengkapan profil"
-        className="mt-4 h-3 w-full overflow-hidden rounded-full bg-white"
+        className="mt-4 h-3 w-full overflow-hidden rounded-full bg-surface"
       >
         <div className="h-full rounded-full bg-primary transition-all" style={{ width: `${percent}%` }} />
       </div>

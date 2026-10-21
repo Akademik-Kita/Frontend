@@ -19,7 +19,7 @@ export function SchoolCard({ recommendation, selected, onToggleCompare, compareD
     <Card className="min-w-0">
       <div className="flex flex-col gap-5">
         <div className="flex items-start gap-4">
-          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-lavender text-lg font-extrabold text-primary">
+          <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-2xl bg-lavender text-lg font-extrabold text-link">
             #{recommendation.rank}
           </div>
           <div className="min-w-0 flex-1">
@@ -30,7 +30,7 @@ export function SchoolCard({ recommendation, selected, onToggleCompare, compareD
             </div>
             <p className="mt-1 text-sm text-muted">Skor kecocokan berdasarkan data profil dan preferensimu</p>
             <div className="mt-3 flex flex-wrap items-center gap-3">
-              <span className="text-2xl font-extrabold text-primary">{Math.round(recommendation.total_score)}<span className="text-sm font-semibold text-muted">/100</span></span>
+              <span className="text-2xl font-extrabold text-link">{Math.round(recommendation.total_score)}<span className="text-sm font-semibold text-muted">/100</span></span>
               <ChanceIndicator recommendation={recommendation} />
             </div>
           </div>

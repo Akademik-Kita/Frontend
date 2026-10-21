@@ -4,10 +4,10 @@ import { cx } from '../../utils/cx';
 type Tone = 'lavender' | 'yellow' | 'green' | 'neutral' | 'error';
 
 const tones: Record<Tone, string> = {
-  lavender: 'bg-lavender text-primary-dark',
+  lavender: 'bg-lavender text-link',
   yellow: 'bg-softyellow text-ink',
   green: 'bg-softgreen text-ink',
-  neutral: 'bg-white text-muted border border-line',
+  neutral: 'bg-surface text-muted border border-line',
   error: 'bg-dangersoft text-danger',
 };
 

@@ -26,11 +26,11 @@ export const Select = forwardRef<HTMLSelectElement, SelectProps>(function Select
         aria-invalid={error ? true : undefined}
         aria-describedby={describedBy}
         className={cx(
-          'h-12 w-full rounded-xl border bg-white px-4 text-base text-ink',
-          'transition-colors hover:border-primary/60',
-          'focus:border-primary focus:outline-2 focus:outline-offset-0 focus:outline-primary/30',
+          'h-12 w-full rounded-xl border bg-surface px-4 text-base text-ink',
+          'transition-colors hover:border-link',
+          'focus:border-link focus:outline-2 focus:outline-offset-0 focus:outline-link/30',
           'disabled:cursor-not-allowed disabled:bg-page disabled:text-muted',
-          error ? 'border-danger' : 'border-line',
+          error ? 'border-danger' : 'border-control',
         )}
         {...rest}
       >

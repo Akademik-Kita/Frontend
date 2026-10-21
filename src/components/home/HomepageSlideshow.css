@@ -148,7 +148,7 @@
   border: 1px solid #7581a3;
   border-radius: 3px;
   background: transparent;
-  color: var(--ak-primary-dark);
+  color: var(--color-link);
   font-size: 23px;
   cursor: pointer;
 }
@@ -176,7 +176,7 @@
 }
 .ak-slide-pagination a[aria-current='step'] .ak-pagination-dash {
   width: 32px;
-  background: var(--ak-primary-dark);
+  background: var(--color-link);
 }
 .ak-slide-counter {
   display: flex;
@@ -190,7 +190,7 @@
 }
 .ak-slide-counter > span:first-child {
   font-weight: 600;
-  color: var(--ak-primary-dark);
+  color: var(--color-link);
 }
 .ak-slide-morph {
   position: fixed;

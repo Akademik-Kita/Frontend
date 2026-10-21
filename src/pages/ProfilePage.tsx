@@ -172,7 +172,7 @@ export default function ProfilePage() {
                     'focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary',
                     section === item.id
                       ? 'bg-primary text-white'
-                      : 'bg-white text-ink ring-1 ring-line hover:bg-lavender',
+                      : 'bg-surface text-ink ring-1 ring-line hover:bg-lavender',
                   )}
                 >
                   {item.label}

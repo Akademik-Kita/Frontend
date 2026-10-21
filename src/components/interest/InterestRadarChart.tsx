@@ -20,11 +20,11 @@ export function InterestRadarChart({ scores }: InterestRadarChartProps) {
     >
       <ResponsiveContainer width="100%" height="100%">
         <RadarChart data={data} outerRadius="70%">
-          <PolarGrid stroke="#E3E6F0" />
-          <PolarAngleAxis dataKey="label" tick={{ fill: '#252B42', fontSize: 13, fontWeight: 600 }} />
-          <PolarRadiusAxis angle={90} domain={[0, 100]} tickCount={5} tick={{ fill: '#5B6380', fontSize: 11 }} />
-          <Radar name="Skor" dataKey="score" stroke="#4569E8" strokeWidth={2} fill="#4569E8" fillOpacity={0.2} />
-          <Tooltip />
+          <PolarGrid stroke="var(--color-line)" />
+          <PolarAngleAxis dataKey="label" tick={{ fill: 'var(--color-ink)', fontSize: 13, fontWeight: 600 }} />
+          <PolarRadiusAxis angle={90} domain={[0, 100]} tickCount={5} tick={{ fill: 'var(--color-muted)', fontSize: 11 }} />
+          <Radar name="Skor" dataKey="score" stroke="var(--color-link)" strokeWidth={2} fill="var(--color-link)" fillOpacity={0.2} />
+          <Tooltip contentStyle={{ background: 'var(--color-surface)', color: 'var(--color-ink)', borderColor: 'var(--color-line)' }} />
         </RadarChart>
       </ResponsiveContainer>
     </div>

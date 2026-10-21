@@ -41,7 +41,7 @@ Dials: ENERGY 3 / RHYTHM 3 / MOTION 3.
 - Reduced motion menghapus tween dan morph; panel Home tetap sticky tanpa animasi, snap homepage menjadi proximity, dan tombol slide berpindah langsung. Seluruh konten tetap bisa dibaca.
 - Radius 2 sampai 4 piksel menandai dokumen dan kontrol; sudut lembar yang lebih besar menjadi motif. Shadow hanya memisahkan lembar pembuka dari dasar halaman.
 - Panah hanya dipakai untuk petunjuk scroll, kembali ke atas, dan arah jenjang sekolah. Tindakan utama dijelaskan dengan label.
-- Tema terang mengikuti tema awal aplikasi dan motif lembar akademik. Tidak ada tema tambahan yang setengah selesai.
+- Tema terang mengikuti tema awal aplikasi dan motif lembar akademik. Slider mode gelap mempertahankan aksen biru dan mengganti token latar, permukaan, teks, serta status.
 - Home mengambil profil, nilai, tes, dan rekomendasi dari service aplikasi. Loading menyebut data yang diambil; error menawarkan retry; data kosong memberi tindakan pengisian.
 - Rekomendasi kosong (404) adalah keadaan belum ada hasil, sedangkan kegagalan koneksi/server tetap ditampilkan sebagai error.
 - Persentase profil dan skor berasal dari API. Hasil sintetis ditandai bila peringatan sumber sintetis ditemukan dalam penjelasan backend.
@@ -57,3 +57,19 @@ dan tautan langsung ke tab nilai rapor. Formulir dan perhitungan backend tidak d
 Perubahan slideshow hanya berlaku pada homepage publik. Scroll snap, wheel handler,
 PageDown/PageUp, resize observer, dan animasinya dibersihkan saat halaman ditinggalkan.
 Listener resize, timer, serta requestAnimationFrame juga dibersihkan saat keluar halaman.
+
+## Mode gelap
+
+Slider tersedia di navigasi bersama dan halaman login/register. Tema awal mengikuti perangkat bila belum ada pilihan tersimpan; pilihan pengguna disimpan dengan kunci `akademikkita-theme`. `public/theme.js` menetapkan tema sebelum React dirender agar refresh tidak menampilkan kilatan tema terang. Jika penyimpanan diblokir, slider tetap bekerja selama halaman terbuka.
+
+Permukaan kartu, form, tabel, status, serta label dan tooltip grafik memakai token tema. Palet gelap memakai latar abu arang #11151c dan permukaan #1b222d agar aksen biru lebih terarah. Garis dekoratif #303b4c dibuat lebih halus daripada batas kontrol #6f7d91. Biru tombol #4668d9 dipisahkan dari biru tautan #91b5ff agar label dan teks tetap terbaca. Gerak thumb 180 ms menunjukkan status sakelar dan mengikuti pengaturan reduced motion.
+
+Pemeriksaan perubahan ini:
+
+- R-26/R-32 PASS: slider merespons klik dan Space, memiliki role switch, aria-checked, label, dan outline fokus.
+- R-03/R-34 PASS: homepage, login, dan daftar sekolah diperiksa di browser; navbar 320 px muat setelah penyesuaian ikon menu. Tema terang dan gelap tampil tanpa overflow horizontal pada tampilan yang diperiksa.
+- R-25 PASS: kontras teks utama pada permukaan gelap 13.60:1, teks sekunder 7.45:1, tautan pada tint 6.78:1, label putih pada tombol biru 4.95:1; batas kontrol 3.82:1 memenuhi kontras nonteks 3:1. Kontras teks pada status kuning/hijau melewati 11:1 dan status error 7.12:1.
+- R-35 PASS: build frontend dan enam tes bootstrap tema lolos; pilihan light dipertahankan setelah reload, dan tema dark bertahan ketika masuk ke halaman login dan setelah login.
+- R-19/R-31 PASS: animasi hanya memindahkan thumb untuk menunjukkan status; komentar tambahan menjelaskan keterbatasan penyimpanan browser.
+
+Perubahan ini tidak mencakup audit ulang seluruh alur aplikasi atau deployment.

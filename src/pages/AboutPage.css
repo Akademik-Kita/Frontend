@@ -19,7 +19,7 @@
   line-height: 1.08;
 }
 .ak-about-intro h1 em {
-  color: var(--ak-primary);
+  color: var(--color-link);
 }
 .ak-about-intro-copy {
   align-self: end;
@@ -72,7 +72,7 @@
   position: relative;
   aspect-ratio: 4 / 5;
   background: var(--ak-tint);
-  color: var(--ak-primary-dark);
+  color: var(--color-link);
   border-radius: 2px 2px 24px 2px;
   overflow: clip;
 }
@@ -128,7 +128,7 @@
   padding-top: 14px;
 }
 .ak-team-member-index {
-  color: var(--ak-primary-dark);
+  color: var(--color-link);
   font-size: 0.75rem;
 }
 .ak-team-card h3 {

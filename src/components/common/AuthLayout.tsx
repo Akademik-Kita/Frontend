@@ -1,5 +1,6 @@
 import type { ReactNode } from 'react';
 import { Link } from 'react-router-dom';
+import { ThemeToggle } from './ThemeToggle';
 
 interface AuthLayoutProps {
   title: string;
@@ -18,7 +19,7 @@ export function AuthLayout({ title, description, children, footer }: AuthLayoutP
   return (
     <div className="min-h-screen bg-page lg:grid lg:grid-cols-2">
       <aside className="hidden bg-lavender px-12 py-16 lg:flex lg:flex-col lg:justify-between">
-        <Link to="/" className="text-xl font-bold text-primary">
+        <Link to="/" className="text-xl font-bold text-link">
           AkademikKita
         </Link>
         <div className="max-w-md">
@@ -29,7 +30,7 @@ export function AuthLayout({ title, description, children, footer }: AuthLayoutP
           <ol className="mt-10 space-y-4">
             {steps.map((step, index) => (
               <li key={step} className="flex items-baseline gap-4 text-base font-semibold text-ink">
-                <span className="w-6 text-primary">{index + 1}</span>
+                <span className="w-6 text-link">{index + 1}</span>
                 <span>{step}</span>
               </li>
             ))}
@@ -40,9 +41,12 @@ export function AuthLayout({ title, description, children, footer }: AuthLayoutP
 
       <main className="flex items-center justify-center px-4 py-12 sm:px-8">
         <div className="w-full max-w-md">
-          <Link to="/" className="mb-8 block text-xl font-bold text-primary lg:hidden">
-            AkademikKita
-          </Link>
+          <div className="mb-8 flex items-center justify-between gap-4">
+            <Link to="/" className="block text-xl font-bold text-link lg:hidden">
+              AkademikKita
+            </Link>
+            <div className="ml-auto"><ThemeToggle /></div>
+          </div>
           <h1 className="text-3xl font-bold tracking-tight text-ink">{title}</h1>
           <p className="mt-3 text-base text-muted">{description}</p>
           <div className="mt-8">{children}</div>

@@ -82,6 +82,6 @@ export default function CompareSchoolsPage() {
         <Button variant="secondary" disabled={loading || !!error || schools.length < 10} onClick={() => setPage((value) => value + 1)}>Berikutnya</Button>
       </nav>
     </section>
-    <p className="text-sm text-muted">Ingin melihat informasi lengkap dulu? <Link to="/recommendations" className="font-semibold text-primary hover:underline">Buka rekomendasi SMA</Link>.</p>
+    <p className="text-sm text-muted">Ingin melihat informasi lengkap dulu? <Link to="/recommendations" className="font-semibold text-link hover:underline">Buka rekomendasi SMA</Link>.</p>
   </div>;
 }

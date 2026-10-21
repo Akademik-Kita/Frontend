@@ -68,9 +68,9 @@ export function CompareTable({ schools, recommendations = [] }: { schools: Schoo
   ];
 
   return (
-    <div className="overflow-x-auto rounded-2xl border border-line bg-white">
+    <div className="overflow-x-auto rounded-2xl border border-line bg-surface">
       <table className="min-w-[720px] w-full border-collapse text-left text-sm">
-        {schools.some((school) => school.data_is_simulated) && <caption className="border-b border-line bg-white p-4 text-left text-sm text-muted">Data tambahan berlabel simulasi digunakan untuk pengujian fitur.</caption>}
+        {schools.some((school) => school.data_is_simulated) && <caption className="border-b border-line bg-surface p-4 text-left text-sm text-muted">Data tambahan berlabel simulasi digunakan untuk pengujian fitur.</caption>}
         <thead>
           <tr className="bg-lavender">
             <th className="sticky left-0 min-w-36 bg-lavender p-4 font-bold text-ink">Informasi</th>
@@ -85,7 +85,7 @@ export function CompareTable({ schools, recommendations = [] }: { schools: Schoo
         <tbody>
           {rows.map(([label, value]) => (
             <tr key={label} className="border-t border-line">
-              <th className="sticky left-0 bg-white p-4 font-semibold text-muted">{label}</th>
+              <th className="sticky left-0 bg-surface p-4 font-semibold text-muted">{label}</th>
               {schools.map((s) => (
                 <td key={String(s.id)} className="p-4 align-top text-ink">
                   {value(s)}

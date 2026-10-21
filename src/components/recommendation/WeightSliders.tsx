@@ -31,7 +31,7 @@ export function WeightSliders({ weights, onChange, onApply, loading, dirty }: Pr
           <div key={key}>
             <div className="mb-1 flex items-center justify-between gap-3">
               <label htmlFor={`weight-${key}`} className="text-sm font-semibold text-ink">{label}</label>
-              <span className="text-sm font-bold tabular-nums text-primary">{Math.round(weights[key] * 100)}%</span>
+              <span className="text-sm font-bold tabular-nums text-link">{Math.round(weights[key] * 100)}%</span>
             </div>
             <input id={`weight-${key}`} aria-label={`Bobot ${label}`} type="range" min="0" max="100" step="5" value={Math.round(weights[key] * 100)} onChange={(event) => onChange(key, Number(event.target.value) / 100)} className="w-full accent-primary" />
             <p className="text-xs text-muted">{hint}</p>

@@ -62,7 +62,7 @@ export function AcademicRecordList({ records, subjects, onEdit, onDelete }: Acad
                 >
                   <div className="flex items-baseline justify-between gap-4 sm:justify-start sm:gap-6">
                     <span className="text-base text-ink">{name}</span>
-                    <span className="text-base font-bold text-primary">{record.score}</span>
+                    <span className="text-base font-bold text-link">{record.score}</span>
                   </div>
                   <div className="flex items-center gap-1">
                     <Button

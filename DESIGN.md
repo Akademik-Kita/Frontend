@@ -9,6 +9,7 @@ Arahan layout terbaru: susunan berubah saat ukuran jendela berubah, mengikuti le
 Arahan Home setelah login: panel Lembar pilihanmu mengikuti scroll selama empat bab, dengan informasi mengikuti bab aktif.
 Arahan About Us: sediakan empat slot foto profil anggota tim yang dapat diisi oleh pemilik.
 Penyesuaian About Us: area tim dan ukuran foto diperkecil agar empat profil lebih ringkas.
+Arahan tema terbaru: sediakan slider mode gelap, dengan aksen biru yang tetap mengikuti tema web.
 
 Produk: AkademikKita, pemilihan SMA berdasarkan profil, nilai, minat, jarak, biaya, dan estimasi peluang.
 Audiens: siswa SMP/MTs dan orang tua, mengikuti cakupan aplikasi yang ada.

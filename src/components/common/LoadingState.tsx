@@ -12,7 +12,7 @@ interface LoadingStateProps {
 
 export function LoadingState({ rows = 3, label = 'Memuat data…' }: LoadingStateProps) {
   return (
-    <div role="status" aria-live="polite" className="rounded-2xl border border-line bg-white p-6 sm:p-8">
+    <div role="status" aria-live="polite" className="rounded-2xl border border-line bg-surface p-6 sm:p-8">
       <span className="sr-only">{label}</span>
       <div className="space-y-4">
         <Skeleton className="h-6 w-1/3" />
