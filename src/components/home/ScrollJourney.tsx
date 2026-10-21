@@ -100,7 +100,7 @@ export function ScrollJourney({
         },
         root,
       );
-      // Font loading can change chapter heights after ScrollTrigger measured the page.
+      // Font yang baru dimuat bisa mengubah tinggi bab setelah pengukuran ScrollTrigger.
       let mounted = true;
       void document.fonts.ready.then(() => {
         if (mounted) measureStage();

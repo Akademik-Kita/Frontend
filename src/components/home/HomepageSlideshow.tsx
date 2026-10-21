@@ -14,7 +14,7 @@ export interface HomepageSlide {
   content: ReactNode;
 }
 
-// Matching SVG commands let GSAP interpolate the sheet's curved leading and trailing edges.
+// Kedua path memakai perintah SVG yang sama agar GSAP bisa mengubah kurva lembar.
 const SHEET_TOP = 'M 0 0 C 25 0 75 0 100 0 L 100 0 C 75 0 25 0 0 0 Z';
 const SHEET_ENTER = 'M 0 0 C 25 0 75 0 100 0 L 100 50 C 75 90 25 10 0 50 Z';
 const SHEET_FULL = 'M 0 0 C 25 0 75 0 100 0 L 100 100 C 75 100 25 100 0 100 Z';
@@ -72,7 +72,7 @@ export function HomepageSlideshow({ slides }: { slides: HomepageSlide[] }) {
 
       const panels = gsap.utils.toArray<HTMLElement>('.ak-slide');
       const onResize = () => {
-        // Keep the reader's slide while its content reflows and snap positions change.
+        // Pertahankan slide aktif saat resize mengubah layout dan posisi snap.
         if (!resizing) resizeTarget = current.current;
         resizing = true;
         html.style.scrollSnapType = 'none';

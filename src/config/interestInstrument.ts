@@ -1,13 +1,7 @@
 import type { InterestDimension, InterestScores } from '../types/profile';
 
-/*
- * Instrumen RIASEC-lite. Pemetaan pertanyaan ke dimensi dan arah skor ada di sini
- * dan perlu disetujui tim sebelum dipakai (brief meminta ini diputuskan dulu).
- *
- * Susunan: 2 pertanyaan per dimensi. Satu pernyataan positif, satu pernyataan negatif
- * (reverse: true). Jawaban pernyataan negatif dibalik: nilai efektif = 6 - jawaban.
- * Skor dimensi = ((rata-rata nilai efektif - 1) / 4) * 100, dibulatkan ke bilangan bulat 0–100.
- */
+// Tiap dimensi punya satu pertanyaan positif dan satu negatif; jawaban negatif dibalik dengan 6 - jawaban.
+// Skor dibulatkan ke 0–100: ((rata-rata nilai efektif - 1) / 4) * 100. Pemetaan perlu ditinjau tim sebelum dipakai.
 export const INSTRUMENT_VERSION = 'riasec-lite-v1';
 
 export const SCALE_LABELS: Record<number, string> = {
@@ -24,7 +18,7 @@ export interface DimensionInfo {
   description: string;
 }
 
-/** Urutan ini dipakai untuk sumbu radar chart. */
+/** Urutan dimensi menentukan posisi sumbu pada grafik radar. */
 export const DIMENSIONS: DimensionInfo[] = [
   { key: 'realistic', label: 'Realistis', description: 'Suka kegiatan praktik: merakit, memperbaiki, dan memakai alat.' },
   { key: 'investigative', label: 'Investigatif', description: 'Suka mencari tahu penyebab, meneliti, dan memecahkan soal sulit.' },

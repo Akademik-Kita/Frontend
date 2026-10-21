@@ -5,7 +5,6 @@ export function Skeleton({ className }: { className?: string }) {
 }
 
 interface LoadingStateProps {
-  /** Jumlah baris placeholder. */
   rows?: number;
   label?: string;
 }

@@ -7,7 +7,7 @@ import type { LoginPayload, RegisterPayload, User } from '../types/auth';
 interface AuthState {
   token: string | null;
   user: User | null;
-  /** false selama aplikasi masih memeriksa token yang tersimpan. */
+  /** Token tersimpan diperiksa sebelum route terproteksi ditampilkan. */
   initialized: boolean;
   hydrate: () => Promise<void>;
   login: (payload: LoginPayload) => Promise<void>;
@@ -61,7 +61,7 @@ export const useAuthStore = create<AuthState>((set, get) => ({
   },
 }));
 
-/** Sesi tidak valid atau kedaluwarsa: bersihkan state, ProtectedRoute akan mengarahkan ke /login. */
+// Setelah logout, ProtectedRoute mengarahkan pengguna ke halaman login.
 setUnauthorizedHandler(() => {
   useAuthStore.getState().logout();
 });

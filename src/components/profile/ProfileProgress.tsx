@@ -5,7 +5,7 @@ interface ProfileProgressProps {
   completeness: number | null;
 }
 
-/** Backend bisa mengirim 0–1 atau 0–100; keduanya dibaca sebagai persen. Rumus tetap milik backend. */
+/** Terima proporsi 0–1 maupun persen 0–100 dari backend. */
 function toPercent(value: number | null): number {
   if (value === null || Number.isNaN(value)) return 0;
   const percent = value > 0 && value <= 1 ? value * 100 : value;

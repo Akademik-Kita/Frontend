@@ -25,7 +25,7 @@ interface RequestOptions {
 
 let unauthorizedHandler: (() => void) | null = null;
 
-/** Didaftarkan oleh authStore supaya api.ts tidak mengimpor store (hindari import melingkar). */
+/** authStore memasang handler ini agar tidak terjadi import melingkar. */
 export function setUnauthorizedHandler(handler: (() => void) | null): void {
   unauthorizedHandler = handler;
 }
@@ -71,10 +71,7 @@ function toApiError(error: unknown): ApiError {
   return new ApiError('Terjadi kesalahan. Coba lagi.');
 }
 
-/**
- * Semua service memanggil ini. Hasilnya langsung `data` dari envelope;
- * `success: false` dan error HTTP dijadikan ApiError dengan pesan yang bisa ditampilkan.
- */
+/** Mengembalikan data dari envelope; kegagalan HTTP atau success: false menjadi ApiError. */
 export async function request<T>(config: AxiosRequestConfig, options: RequestOptions = {}): Promise<T> {
   try {
     const response = await api.request<ApiEnvelope<T>>(config);

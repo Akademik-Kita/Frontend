@@ -45,7 +45,7 @@ export default function CompareSchoolsPage() {
     if (!ids?.length) return;
     let active = true;
     getSchoolComparison(ids).then((results) => { if (active) { setSelected(results.slice(0, 4)); setCompared(results.slice(0, 4)); } })
-      .catch(() => { /* IDs from recommendation can be loaded through search list if compare API is not ready. */ });
+      .catch(() => { /* Jika tautan gagal dimuat, sekolah masih bisa dipilih lewat daftar pencarian. */ });
     return () => { active = false; };
   }, [location.state]);
 

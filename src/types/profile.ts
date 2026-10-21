@@ -1,8 +1,3 @@
-/*
- * ASUMSI NAMA FIELD: brief hanya menyebut isi profil, bukan nama field-nya.
- * Semua nama di file ini (kecuali kontrak tes minat) perlu dicocokkan dengan backend.
- * Hanya file ini yang perlu diubah kalau nama field berbeda.
- */
 
 export type Id = string | number;
 
@@ -65,7 +60,7 @@ export interface AchievementPayload {
   year: number;
 }
 
-/* Kontrak tes minat: key dan versi instrumen persis seperti brief. */
+/* Key dimensi harus sama dengan payload tes minat di backend. */
 export type InterestDimension =
   | 'realistic'
   | 'investigative'

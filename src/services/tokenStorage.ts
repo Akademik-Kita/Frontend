@@ -1,9 +1,5 @@
-/*
- * Penyimpanan token: localStorage (dipilih karena praktis dan bertahan antar sesi).
- * Risiko: token bisa dibaca skrip jahat kalau ada celah XSS. HttpOnly cookie lebih aman
- * tetapi butuh dukungan backend. Kalau tim memilih cookie, hanya file ini, api.ts,
- * dan authStore.ts yang berubah.
- */
+// Token di localStorage bisa dibaca JavaScript dan terekspos jika ada celah XSS.
+// Beralih ke cookie HttpOnly memerlukan dukungan backend.
 const TOKEN_KEY = 'akademikkita.token';
 
 export const tokenStorage = {
@@ -18,14 +14,13 @@ export const tokenStorage = {
     try {
       localStorage.setItem(TOKEN_KEY, token);
     } catch {
-      /* storage tidak tersedia; sesi hanya hidup selama tab terbuka */
+      /* Browser memblokir localStorage; token tidak tersimpan. */
     }
   },
   clear(): void {
     try {
       localStorage.removeItem(TOKEN_KEY);
     } catch {
-      /* diabaikan */
     }
   },
 };

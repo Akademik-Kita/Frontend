@@ -5,7 +5,7 @@ import { InterestQuestion } from './InterestQuestion';
 import { QUESTIONS, isComplete, type Answers } from '../../config/interestInstrument';
 
 interface InterestQuizProps {
-  /** Dipanggil setelah semua 12 pertanyaan terjawab. Lempar error kalau penyimpanan gagal; jawaban tetap aman. */
+  /** Jika penyimpanan gagal, lempar error agar jawaban tetap tersedia untuk dicoba ulang. */
   onFinish: (answers: Answers) => Promise<void>;
   submitting: boolean;
   error: string | null;
@@ -31,7 +31,7 @@ export function InterestQuiz({ onFinish, submitting, error }: InterestQuizProps)
     try {
       await onFinish(answers);
     } catch {
-      /* pesan error ditampilkan oleh halaman lewat prop `error`; jawaban tidak dihapus */
+      /* Halaman menampilkan error lewat prop; jawaban tetap disimpan di form. */
     }
   };
 

@@ -16,7 +16,6 @@
   --color-page: #f7f8fc;
   --color-ink: #252b42;
 
-  /* Turunan netral dan status: di luar token brief, dipakai untuk teks sekunder, garis, dan error. */
   --color-muted: #5b6380;
   --color-line: #e3e6f0;
   --color-control: var(--color-line);

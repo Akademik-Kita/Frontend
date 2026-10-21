@@ -77,12 +77,12 @@ export default function ProfilePage() {
     void load();
   }, [load]);
 
-  /** Kelengkapan profil dihitung backend, jadi diambil ulang setelah data berubah. */
+  /** Muat ulang profil agar angka kelengkapannya mengikuti perhitungan backend. */
   const refreshProfile = async () => {
     try {
       setProfile(await profileService.getProfile());
     } catch {
-      /* angka kelengkapan lama tetap tampil; tidak perlu mengganggu pengguna */
+      /* Pertahankan angka terakhir kalau profil gagal dimuat ulang. */
     }
   };
 

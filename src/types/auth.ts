@@ -19,11 +19,7 @@ export interface RegisterPayload {
   role: UserRole;
 }
 
-/**
- * ASUMSI: bentuk respons login belum ada di brief.
- * Service menerima `access_token` atau `token`, dan `user` boleh kosong
- * (kalau kosong, user diambil dari GET /auth/me). Sesuaikan setelah backend dicek.
- */
+/** Menerima access_token atau token; user yang belum disertakan diambil lewat /auth/me. */
 export interface LoginResponse {
   access_token?: string;
   token?: string;
