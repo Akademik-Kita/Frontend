@@ -30,6 +30,7 @@ export interface Recommendation {
   category: 'ambisius' | 'realistis' | 'aman' | string;
   explanation: RecommendationExplanation;
   school?: School;
+  data_is_simulated?: boolean;
 }
 
 export interface GenerateRecommendationPayload {

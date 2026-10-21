@@ -25,6 +25,7 @@ export interface School {
   description?: string | null;
   website?: string | null;
   majors?: SchoolMajor[];
+  data_is_simulated?: boolean;
   image_url?: string | null;
 }
 

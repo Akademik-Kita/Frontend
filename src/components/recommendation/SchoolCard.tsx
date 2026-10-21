@@ -26,6 +26,7 @@ export function SchoolCard({ recommendation, selected, onToggleCompare, compareD
             <div className="flex flex-wrap items-center gap-2">
               <h2 className="text-lg font-bold text-ink">{recommendation.school_name}</h2>
               <Badge>{recommendation.jurusan_name}</Badge>
+              {recommendation.data_is_simulated && <Badge tone="yellow">Data simulasi</Badge>}
             </div>
             <p className="mt-1 text-sm text-muted">Skor kecocokan berdasarkan data profil dan preferensimu</p>
             <div className="mt-3 flex flex-wrap items-center gap-3">

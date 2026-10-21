@@ -26,6 +26,7 @@ export function SchoolDetail({ school }: { school: School }) {
     return () => { active = false; };
   }, [school.id, majorId]);
   return <div className="space-y-5">
+    {school.data_is_simulated && <p className="rounded-xl bg-softyellow p-4 text-sm text-ink" role="note">Biaya, jurusan, fasilitas, dan histori tambahan menggunakan simulasi untuk pengujian fitur.</p>}
     <Card>
       <div className="flex flex-wrap gap-2">{school.ownership && <Badge>{school.ownership}</Badge>}{school.accreditation && <Badge tone="green">Akreditasi {school.accreditation}</Badge>}{school.npsn && <Badge tone="neutral">NPSN {school.npsn}</Badge>}</div>
       <p className="mt-4 text-base leading-7 text-muted">{school.description || 'Deskripsi sekolah belum tersedia dari data sekolah.'}</p>

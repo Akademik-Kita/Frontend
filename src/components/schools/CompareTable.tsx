@@ -70,12 +70,14 @@ export function CompareTable({ schools, recommendations = [] }: { schools: Schoo
   return (
     <div className="overflow-x-auto rounded-2xl border border-line bg-white">
       <table className="min-w-[720px] w-full border-collapse text-left text-sm">
+        {schools.some((school) => school.data_is_simulated) && <caption className="border-b border-line bg-white p-4 text-left text-sm text-muted">Data tambahan berlabel simulasi digunakan untuk pengujian fitur.</caption>}
         <thead>
           <tr className="bg-lavender">
             <th className="sticky left-0 min-w-36 bg-lavender p-4 font-bold text-ink">Informasi</th>
             {schools.map((s) => (
               <th key={String(s.id)} className="min-w-48 p-4 font-bold text-ink">
                 {s.name}
+                {s.data_is_simulated && <span className="mt-1 block text-xs font-normal text-muted">Data tambahan simulasi</span>}
               </th>
             ))}
           </tr>
